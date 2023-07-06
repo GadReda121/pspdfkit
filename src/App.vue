@@ -14,7 +14,7 @@ import PSPDFKitContainer from "./components/PSPDFKitContainer";
 export default {
   data() {
     return {
-      pdfFile: this.pdfFile || "/document.pdf",
+      pdfFile: this.pdfFile
     };
   },
   /**
@@ -65,7 +65,7 @@ input[type="file"] {
   padding: 6px 12px;
   cursor: pointer;
   background: #4A8FED;
-  padding: 15px 30px;
+  padding: 15px 40px;
   color: #fff;
   font: inherit;
   font-size: 16px;
